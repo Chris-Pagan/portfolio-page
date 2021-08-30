@@ -1,0 +1,43 @@
+body {
+  justify-content: space-around;
+  margin: 2%;
+  text-align: center;
+}
+header,
+footer {
+  background-color: #0c7489;
+  justify-content: center;
+  margin: 2px;
+  padding: 3px;
+  color: #d7d9ce;
+}
+
+.header h2 {
+  top: 20px;
+}
+
+main {
+  background-color: #d7d9ce;
+  display: inline-block;
+  margin: 0px;
+}
+.welcome p {
+  display: inline-flex;
+  text-align: left;
+}
+.list {
+  display: inline-block;
+  text-align: center;
+  list-style: inside;
+  justify-items: center;
+  right: 200px;
+}
+.list li {
+  text-align: left;
+}
+.about_me p {
+  display: inline-block;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
