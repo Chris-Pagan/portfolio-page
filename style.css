@@ -1,10 +1,12 @@
 body {
+  /* aligns text and sets margin for entire body of page*/
   justify-content: space-around;
   margin: 2%;
   text-align: center;
 }
 header,
 footer {
+  /* sets margin, padding, background and text color for both header and footer */
   background-color: #0c7489;
   justify-content: center;
   margin: 2px;
@@ -17,13 +19,20 @@ footer {
 }
 
 main {
+  /* sets background color and margin for main section */
   background-color: #d7d9ce;
   display: inline-block;
   margin: 0px;
 }
+#interests {
+  display: inline-block;
+  justify-content: center;
+  top: 150px;
+}
 .welcome p {
-  display: inline-flex;
-  text-align: left;
+  display: inline-block;
+  text-align: bottom;
+  top: 50px;
 }
 .list {
   display: inline-block;
@@ -33,6 +42,7 @@ main {
   right: 200px;
 }
 .list li {
+  /* lines up list bullet points and numbers for unordered and ordered lists*/
   text-align: left;
 }
 .about_me p {
@@ -40,4 +50,20 @@ main {
   text-align: justify;
   padding-left: 20px;
   padding-right: 20px;
+}
+/* sets unvisited link color*/
+a:link {
+  color: #579dac;
+}
+/* sets visited link color*/
+a:visited {
+  color: #173d46;
+}
+/* sets mouse over link color*/
+a:hover {
+  color: #318699;
+}
+/* sets active link color*/
+a:link {
+  color: #285d69;
 }
