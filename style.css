@@ -3,6 +3,7 @@ body {
   justify-content: space-around;
   margin: 2%;
   text-align: center;
+  font-family: cursive;
 }
 header,
 footer {
@@ -12,6 +13,8 @@ footer {
   margin: 2px;
   padding: 3px;
   color: #d7d9ce;
+  font-family: cursive;
+  font-size: larger;
 }
 
 .header h2 {
@@ -33,6 +36,7 @@ main {
   display: inline-block;
   text-align: bottom;
   top: 50px;
+  height: 50px;
 }
 .list {
   display: inline-block;
@@ -50,6 +54,7 @@ main {
   text-align: justify;
   padding-left: 20px;
   padding-right: 20px;
+  height: 50px;
 }
 /* sets unvisited link color*/
 a:link {
